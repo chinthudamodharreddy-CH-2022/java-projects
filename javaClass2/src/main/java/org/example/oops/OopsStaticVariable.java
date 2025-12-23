@@ -1,4 +1,4 @@
-package org.example;
+package org.example.oops;
 
 import java.util.Scanner;
 
@@ -24,6 +24,9 @@ class Farmer{
 
     void calSI(){
         simpleIntrest = (principleAmount*rateOfIntrest*tenure)/100.0f;
+    }
+
+    void display(){
         System.out.println("simple intrest:" +simpleIntrest);
     }
 
@@ -33,5 +36,6 @@ public class OopsStaticVariable {
         Farmer farmer = new Farmer();
         farmer.inputs();
         farmer.calSI();
+        farmer.display();
     }
 }
