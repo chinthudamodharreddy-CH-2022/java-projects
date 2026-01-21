@@ -11,7 +11,7 @@ interface Calc2{
     void divide(int n1, int n2);
 }
 
-class Telusko{ 
+class Telusko{
     public void show(){
         System.out.println("telusko java learnings");
     }
