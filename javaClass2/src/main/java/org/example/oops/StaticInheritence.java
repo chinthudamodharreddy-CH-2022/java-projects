@@ -13,7 +13,7 @@ class Child extends Parent2{
 //    }
 
     //here a static method is overridden, due to that this method becomes as specialised method and cant be accessed with the parent.ref to the child class object.
-    //since it's a specialised class it can be accessed by creating the child class object of same ef type.
+    //since it's a specialised class it can be accessed by creating the child class object of same type.
 
     public static void eats(){
         System.out.println("chilldren wont eat healthy");

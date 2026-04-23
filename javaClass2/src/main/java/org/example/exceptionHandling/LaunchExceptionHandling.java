@@ -31,9 +31,11 @@ public class LaunchExceptionHandling {
 
         }
         catch (ArithmeticException ae){
+            System.out.println(ae.getMessage());
             System.out.println("please enter the valid denominator");
         }
         catch (NegativeArraySizeException e){
+            System.out.println(e.getMessage());
             System.out.println("please enter non negative array size");
         }
         catch (ArrayIndexOutOfBoundsException e){

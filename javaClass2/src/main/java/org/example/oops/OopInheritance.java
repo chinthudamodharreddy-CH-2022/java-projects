@@ -26,7 +26,7 @@ public class OopInheritance {
         Plane parent = new PassengerPlane();
         parent.fly();
         parent.takeOff();
-        //parent.landing(); cant ba accessed directly cause its a specialised class and  parent type ref doesn't have landing(),
+        //parent.landing(); cant ba accessed directly cause its a specialised class of child and  parent type ref doesn't have landing(),
         // we can access it indirectly by making parent act as child we can access the specialised class of the child
         ((PassengerPlane) parent).landing();
     }
